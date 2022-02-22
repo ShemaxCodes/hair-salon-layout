@@ -120,14 +120,13 @@ li a {
     border-style: solid;
     border-color: green;
     padding: 70px;
-    width: 100%;
 }
 
 .more-info-content {
     margin: 40px;
     padding: 40px;
     border-style: solid;
-    border-color: blue;
+  
     width: 300px;
     height: 184px;
 }
@@ -148,5 +147,22 @@ li a {
     height: 184px;
 }
 .more-info-content, .more-info-image {
+    display: flexbox;
+}
+
+.meet-the-team {
+    background-color: white;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    padding: 70px;
+    text-align: center;
+}
+
+
+.member1, .member2, .member3 {
     display: inline-block;
+    text-align: center;
+    padding: 50px;
+    margin: 30px;
 }
