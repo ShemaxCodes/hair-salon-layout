@@ -56,7 +56,12 @@ li a {
     text-decoration: none;
   }
 
-  img {
+.nav-image {
       height: 15px;
       width: 15px;
+  }
+
+  .queen {
+      height: 500px;
+      width: 1500px;
   }
