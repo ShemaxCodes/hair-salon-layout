@@ -64,10 +64,52 @@ li a {
 .hero-section {
     margin: 0;
     padding: 0;
+    height: 700px;
     
 }
 
 .queen {
     width: 1345px;
     clip-path: polygon(0 0, 100% 0, 100% 77%, 48% 79%, 0 54%);
+}
+
+.call-action {
+    font-size: 25px;
+    position: relative;
+    bottom: 600px;
+    padding-left: 150px;
+    color: white;
+}
+
+.arrow {
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+}
+
+.book-online-box {
+    border-style: solid;
+    border-color: red;
+    background-color: black;
+    color: white;
+    width: 230px;
+    height: 250px;
+    position: absolute;
+    top: 400px;
+    margin: 0 0 0 150px;
+}
+
+.row-1 {
+    display: block;
+    border-style: solid;
+    border-color: red;
+    padding: 70px;
+    text-align: center;
+}
+
+.col-1, .col-2, .col-3 {
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+    margin: 30px;
 }
