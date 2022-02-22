@@ -155,18 +155,24 @@ li a {
 
 
 .meet-the-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: white;
     border-style: solid;
     border-color: purple;
-    display: block;
     padding: 70px;
     text-align: center;
 }
 
 
 .member1, .member2, .member3 {
-    display: inline-block;
     text-align: center;
-    padding: 50px;
     margin: 30px;
+}
+
+.member1 img, .member2 img, .member3 img {
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
 }
