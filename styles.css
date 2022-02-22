@@ -133,6 +133,7 @@ li a {
 .content-image {
     width: 400px;
     height: 384px;
+    object-fit: cover;
 }
 
 .more-info-content, .more-info-image {
