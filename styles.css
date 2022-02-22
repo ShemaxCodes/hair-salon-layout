@@ -3,7 +3,60 @@
     padding: 0;
 }
 
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    overflow: hidden;
+    border-style:solid;
+    border-width: 1px;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    z-index: 9999;
+}
+
 ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
     display: inline-block;
+    
 }
+
+.logo-nav {
+    float: left;
+    padding-left: 80px;
+
+}
+
+.main-nav {
+    float: none;
+    position: relative;
+    left: 230px;
+
+}
+
+.nav-right {
+    float: right;
+    padding-right: 80px;
+    
+}
+
+.nav-link {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 7px 2px;
+    text-decoration: none;
+  }
+
+  img {
+      height: 15px;
+      width: 15px;
+  }
