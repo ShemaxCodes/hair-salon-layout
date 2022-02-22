@@ -34,7 +34,7 @@ ul {
 .main-nav {
     float: none;
     position: relative;
-    left: 200px;
+    left: 160px;
 
 }
 
@@ -54,6 +54,8 @@ li a {
     text-align: center;
     padding: 7px 2px;
     text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
   }
 
 .nav-image {
@@ -85,6 +87,7 @@ li a {
     height: 15px;
     width: 15px;
     padding-right: 5px;
+    color: white;
 }
 
 .book-online-box {
@@ -97,6 +100,25 @@ li a {
     margin: 0 0 0 150px;
 }
 
+
+.booking-box-header {
+    padding: 25px;
+}
+
+.booking-box-p {
+    padding: 25px;
+}
+
+.book-online-btn {
+    background-color: white;
+    color: black;
+    border: solid;
+    padding: 10px 10px;
+    font-weight: 300;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
 .row-1 {
     display: block;
     padding: 70px;
@@ -108,6 +130,11 @@ li a {
     text-align: center;
     padding: 50px;
     margin: 30px;
+    font-size: 30px;
+}
+
+.col-1 p, .col-2 p, .col-3 p {
+    font-size: 20px;
 }
 
 .more-info {
@@ -259,3 +286,20 @@ li a {
     height: 50vh;
     margin-top: -24vh;
 }
+
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+button {
+    background-color: black;
+    color: white;
+    border: solid;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-family: 'Cormorant Garamond', serif;
+}
+
