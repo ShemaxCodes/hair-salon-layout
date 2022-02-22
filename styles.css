@@ -152,7 +152,9 @@ li a {
     object-fit: cover;
 }
 
-
+.team-header {
+    text-align: center;
+}
 
 .meet-the-team {
     display: flex;
@@ -165,7 +167,6 @@ li a {
     text-align: center;
 }
 
-
 .member1, .member2, .member3 {
     text-align: center;
     margin: 30px;
@@ -175,4 +176,32 @@ li a {
     height: 350px;
     width: 250px;
     object-fit: cover;
+}
+
+.member-name p {
+    position: relative;
+    bottom: 50px;
+    height: 40px;
+    padding-top: 20px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.more-offers {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly; */
+    background-color: #b49e91;
+    border-style: solid;
+    border-color: green;
+    padding: 70px;
+}
+
+.more-offers-content {
+    margin: 40px;
+    padding: 40px;
+    width: 400px;
+    
 }
