@@ -116,6 +116,8 @@ li a {
 
 .more-info {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: #b49e91;
     border-style: solid;
     border-color: green;
@@ -125,30 +127,32 @@ li a {
 .more-info-content {
     margin: 40px;
     padding: 40px;
-    border-style: solid;
-  
-    width: 300px;
-    height: 184px;
+    width: 400px;
+    
 }
 
+.more-info-content h2 {
+    font-size: 50px;
+}
+
+.more-info-content h2, p {
+    padding-bottom: 15px;
+}
+
+
 .content-image {
-   
-    width: 300px;
+    padding: 10px;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 8px;
+    border-color: black;
+    margin: 40px;
+    width: 400px;
     height: 284px;
     object-fit: cover;
 }
 
-.more-info-image {
-    margin: 40px;
-    padding: 40px;
-    border-style: solid;
-    border-color: blue;
-    width: 300px;
-    height: 184px;
-}
-.more-info-content, .more-info-image {
-    display: flexbox;
-}
+
 
 .meet-the-team {
     background-color: white;
