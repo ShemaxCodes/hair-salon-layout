@@ -115,10 +115,12 @@ li a {
 }
 
 .more-info {
-    display: block;
+    display: flex;
+    background-color: #b49e91;
     border-style: solid;
     border-color: green;
     padding: 70px;
+    width: 100%;
 }
 
 .more-info-content {
@@ -131,11 +133,20 @@ li a {
 }
 
 .content-image {
-    width: 400px;
-    height: 384px;
+   
+    width: 300px;
+    height: 284px;
     object-fit: cover;
 }
 
+.more-info-image {
+    margin: 40px;
+    padding: 40px;
+    border-style: solid;
+    border-color: blue;
+    width: 300px;
+    height: 184px;
+}
 .more-info-content, .more-info-image {
     display: inline-block;
 }
