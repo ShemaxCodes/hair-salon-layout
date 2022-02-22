@@ -88,8 +88,6 @@ li a {
 }
 
 .book-online-box {
-    border-style: solid;
-    border-color: red;
     background-color: black;
     color: white;
     width: 230px;
@@ -101,8 +99,6 @@ li a {
 
 .row-1 {
     display: block;
-    border-style: solid;
-    border-color: red;
     padding: 70px;
     text-align: center;
 }
@@ -119,8 +115,6 @@ li a {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #b49e91;
-    border-style: solid;
-    border-color: green;
     padding: 70px;
 }
 
@@ -154,6 +148,8 @@ li a {
 
 .team-header {
     text-align: center;
+    padding: 50px;
+    padding-bottom: 10px;
 }
 
 .meet-the-team {
@@ -161,8 +157,6 @@ li a {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
-    border-style: solid;
-    border-color: purple;
     padding: 70px;
     text-align: center;
 }
@@ -195,8 +189,6 @@ li a {
     /*justify-content: space-evenly; */
     background-color: #b49e91;
     background-image: url("Untitled design (2).png");
-    border-style: solid;
-    border-color: green;
     padding: 70px;
 }
 
@@ -216,10 +208,54 @@ li a {
 
 .lookbook-header {
     text-align: center;
+    padding: 50px;
 }
 
 .lookbook {
-    border-style: solid;
-    border-color: black;
+    width: 100%;
+    height: 80vh;
+    padding-left: 40px;
 }
 
+.box {
+    /*border: 1px solid red;*/
+    float: left;
+    width: 30%;
+    height: 100px;
+    margin: 0.5%;
+
+}
+
+
+.box img {
+    height: 100%;
+    width: 100%;
+   object-fit:cover;
+}
+
+.one {
+   height: 25vh;
+}
+
+.two {
+    height: 50vh;
+}
+
+.three {
+    height: 25vh;
+}
+
+.four {
+    clear: both;
+    height: 50vh;
+    margin-top: -24vh;
+}
+
+.five {
+    height: 25vh;
+}
+
+.six {
+    height: 50vh;
+    margin-top: -24vh;
+}
