@@ -131,11 +131,11 @@ li a {
     
 }
 
-.more-info-content h2 {
+.more-info-content h2, .more-offers-content h2 {
     font-size: 50px;
 }
 
-.more-info-content h2, p {
+.more-info-content h2, p, .more-offers-content h2, p {
     padding-bottom: 15px;
 }
 
@@ -194,6 +194,7 @@ li a {
     flex-direction: row;
     /*justify-content: space-evenly; */
     background-color: #b49e91;
+    background-image: url("Untitled design (2).png");
     border-style: solid;
     border-color: green;
     padding: 70px;
@@ -205,3 +206,20 @@ li a {
     width: 400px;
     
 }
+
+.offers-image {
+    width: 500px;
+    height: 484px;
+    object-fit: cover;
+    
+}
+
+.lookbook-header {
+    text-align: center;
+}
+
+.lookbook {
+    border-style: solid;
+    border-color: black;
+}
+
