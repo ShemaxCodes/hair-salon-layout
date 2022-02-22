@@ -61,7 +61,13 @@ li a {
       width: 15px;
   }
 
-  .queen {
-      height: 500px;
-      width: 1500px;
-  }
+.hero-section {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.queen {
+    width: 1345px;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 48% 79%, 0 54%);
+}
