@@ -113,3 +113,15 @@ li a {
     padding: 50px;
     margin: 30px;
 }
+
+.more-info {
+    display: block;
+    border-style: solid;
+    border-color: green;
+    padding: 70px;
+}
+
+.more-info-content {
+    position: relative;
+    left: 230px;
+}
